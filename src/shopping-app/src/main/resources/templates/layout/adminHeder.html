@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" href="/css/bootstrap.css">
+<title>admin_header</title>
+</head>
+<body>
+	<div th:fragment="adminHeader" th:remove="tag">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4"><a href="/admin/home">Shopping Management System</a></div>
+				<div class="col-lg-4"></div>
+				<div class="col-lg-4"><div class="float-right"><a href="#" class="btn btn-success">ボタン</a></div></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

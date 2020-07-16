@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="utf-8">
+    <!-- viewport meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        body {background-color: lightgray;}
+        header {background-color: palegreen;}
+        main {background-color: lightblue;}
+        footer {background-color: hotpink;}
+    </style>
+    <title>Sticky</title>
+</head>
+<div th:replace="layout/adminHeder.html"></div>
+<div th:replace="layout/adminSide.html"></div>
+<body>
+    <p>
+        Sticky！
+    </p>
+    <header class="sticky-top">
+        <div>
+            header
+        </div>
+    </header>
+    <main class="mb-5">
+        <p>
+            S
+        </p>
+        <p>
+            t
+        </p>
+        <p>
+            i
+        </p>
+        <p>
+            c
+        </p>
+        <p>
+            k
+        </p>
+        <p>
+            y
+        </p>
+        <p>
+            !
+        </p>
+    </main>
+    <footer class="fixed-bottom">
+        footer
+    </footer>
+    <!-- jQuery、Popper.js、Bootstrap JS -->
+    <script src="/js/jquery-3.5.1.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

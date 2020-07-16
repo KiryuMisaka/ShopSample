@@ -32,9 +32,19 @@ repositories {
 
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter-web')
+  compile('org.springframework.boot:spring-boot-starter-web')
   compile('org.springframework.boot:spring-boot-starter-data-jpa')
-  compile files('lib/ojdbc7.jar')
+  compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+  compile('org.springframework.boot:spring-boot-starter-security')
+  compile('org.springframework.security:spring-security-web')
+  compile('org.springframework.security:spring-security-config')
+  compile('org.hibernate:hibernate-core')
+  compile('org.hibernate:hibernate-entitymanager')
+  compile('org.javassist:javassist')
+  compile files('lib/lombok.jar')
+  compile files('lib/ojdbc8.jar')
+ 
+   //<version>5.2.3.Fisnal
   //testCompile('com.h2database:h2')
   // compile ('com.oracle.jdbc:ojdbc6:11.2.0.4')
   testCompile('org.springframework.boot:spring-boot-starter-test')

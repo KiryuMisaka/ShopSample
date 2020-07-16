@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" href="/css/bootstrap.css">
+<title>admin_Side</title>
+</head>
+<body>
+	<div th:fragment="adminSide" th:remove="tag">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="float-left">
+					<a href="/admin/home">商品管理</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="float-left">
+					<a href="/admin/home">商品カテゴリ管理</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="float-left">
+					<a href="/admin/home">顧客管理</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="float-left">
+					<a href="/admin/home">管理者管理</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
